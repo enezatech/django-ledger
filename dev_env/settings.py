@@ -11,7 +11,7 @@ if not SECRET_KEY:
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.102', 'localhost','ledger.apps.enezatech.com']
-CSRF_TRUSTED_ORIGINS = ['https://*.preview.app.github.dev',https://ledger.apps.enezatech.com]
+CSRF_TRUSTED_ORIGINS = ['https://*.preview.app.github.dev','https://ledger.apps.enezatech.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
